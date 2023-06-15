@@ -25,8 +25,8 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Mes Projets</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Mon parcours Académique</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projets</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Parcours Académique</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">A propos de Moi</a>
           </li>
@@ -144,6 +144,34 @@
               <img src="./images/grafana-dashboard-load-testing.png" class="work__image" alt="Project 3" />
             </div>
           </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>DevOps Project</h3>
+              <p>
+                Il s'agit d'un projet DevOps qui consiste à créer une application web et à mettre en place un pipeline CI pour assurer l'intégration continue.
+                L'application dispose également d'un système de gestions des dépendances mis en place avec Bazel.
+              </p>
+              <ul class="work__list">
+                <li>Docker</li>
+                <li>Kubernetes</li>
+                <li>Bazel</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/grafana-dashboard-load-testing.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -153,6 +181,11 @@
     <section class="client" id="clients">
       <div class="row">
         <h2>Parcours Académique</h2>
+        <div class="work__links">
+          <a href="#">
+            <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+          </a>
+        </div>
         
       </div>
     </section>
@@ -191,9 +224,9 @@
       <h2>Contact</h2>
       <div class="contact__info">
         <p>
-          <b>Téléphone:</b> +33 07 53 95 61 88
+          <strong>Téléphone:</strong> +33 07 53 95 61 88
           <br />
-          <b>Email:</b> alioubary20@gmail.com
+          <strong>Email:</strong> alioubary20@gmail.com
         </p>
         <!-- Replace the email with yours -->
         <a href="mailto:mamadou.barry@etudiant.univ-rennes1.fr" class="btn">Me contacter par mail</a>
@@ -219,11 +252,6 @@
         &copy; @2023 - Designed & developed by albarry2000.
       </p>
       <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
     </div>
   </footer>
 
