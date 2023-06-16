@@ -3,14 +3,14 @@
 /* --------------------------------------- */
 
 @font-face {
-    font-family: 'Hk Grotesk';
+    font-family: 'Arial', 'Helvetica', sans-serif;;
     font-style: normal;
     font-weight: 400;
     src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Jost';
+    font-family: 'Arial', 'Helvetica', sans-serif;;
     font-style: normal;
     font-weight: 400;
     src: url('./fonts/Jost-Regular.ttf') format('woff');
@@ -37,7 +37,7 @@
     --black: #0f0d0d;
     --pink: #c00792;
     --white: #f0e9f2;
-    --white-1: #e5e5e6da;
+    --white-1: #f6f6fcda;
 
 
     --container-max-width: 1180px;
