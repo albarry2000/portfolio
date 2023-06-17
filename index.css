@@ -119,7 +119,9 @@ ul li .descr {
   background: white;
   position: relative;
   padding-inline: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 ul li .title {
     background: white;
   overflow: hidden;
@@ -128,6 +130,7 @@ ul li .title {
   font-weight: 500;
 }
 ul li .descr {
+    background: white;
   padding-block-end: 1.5rem;
   font-weight: 300;
   font-family: 'Times New Roman', Times, serif;
