@@ -10,7 +10,7 @@
 
 .tryy {
   --color: rgba(30, 30, 30);
-  --bgColor: rgb(31, 65, 88);
+  --bgColor: rgb(90, 102, 110);
   min-height: 100vh;
   display: grid;
   align-content: center;
