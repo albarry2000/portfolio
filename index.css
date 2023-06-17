@@ -10,7 +10,7 @@
 
 .tryy {
   --color: rgba(30, 30, 30);
-  --bgColor: rgb(242, 247, 250);
+  --bgColor: rgb(19, 20, 20);
   min-height: 100vh;
   display: grid;
   align-content: center;
@@ -116,7 +116,7 @@ ul li .date::after {
 /* title descr */
 ul li .title,
 ul li .descr {
-  background: var(--bgColor);
+  background: white;
   position: relative;
   padding-inline: 1.5rem;
 }
