@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
-
 *,
 *::before,
 *::after {
@@ -545,7 +544,7 @@ body:not(.user-is-tabbing) a:focus {
     margin-right: var(--gutter-medium);
 }
 
-@media(max-width: 500px) {
+@media(max-width: 400px) {
     .nav {
         justify-content: center;
     }
