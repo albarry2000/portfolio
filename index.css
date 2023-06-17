@@ -10,13 +10,13 @@
 
 .tryy {
   --color: rgba(30, 30, 30);
-  --bgColor: rgb(250, 169, 169);
+  --bgColor: rgb(31, 65, 88);
   min-height: 100vh;
   display: grid;
   align-content: center;
   gap: 2rem;
   padding: 2rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: var(--color);
   background: var(--bgColor);
 }
