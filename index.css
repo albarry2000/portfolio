@@ -10,7 +10,7 @@
 
 .tryy {
   --color: rgba(30, 30, 30);
-  --bgColor: var(--black)
+  --bgColor: #1e1e2f;
   min-height: 100vh;
   display: grid;
   align-content: center;
@@ -21,9 +21,6 @@
   background: var(--bgColor);
 }
 
-h1 {
-  text-align: center;
-}
 
 ul {
   --col-gap: 2rem;
@@ -232,7 +229,7 @@ ul li .descr::before {
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #0f0d0d;
+    --black: #1e1e2f;
     --pink: #c00792;
     --white: #f0e9f2;
     --white-1: #f6f6fcda;
