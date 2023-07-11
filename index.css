@@ -199,14 +199,14 @@ ul li .descr::before {
 @font-face {
     font-family: 'Arial', 'Helvetica', sans-serif;;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Arial', 'Helvetica', sans-serif;;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     src: url('./fonts/Jost-Regular.ttf') format('woff');
 }
 
@@ -240,7 +240,7 @@ ul li .descr::before {
     --container-small-width: 500px;
 
     --gutter-huge: 12rem;
-    --gutter-medium: 6rem;
+    --gutter-medium: 10rem;
     --gutter-normal: 3rem;
     --gutter-small-1: 2.5rem;
     --gutter-small: 2rem;
